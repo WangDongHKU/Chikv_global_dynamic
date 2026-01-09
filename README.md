@@ -2,11 +2,11 @@
 
 ## Overview
 
-This repository contains a comprehensive phylogeographic analysis of Chikungunya virus (CHIKV) based on genomic sequence data collected between 2017 and 2025. The study focuses on three major CHIKV genotypes (I-WestAfrica, II-ECSA, and III-Asian) and employs advanced phylogenetic methods to investigate global transmission patterns, evolutionary dynamics, and geographic spread.
+This repository contains a comprehensive phylogeographic analysis of Chikungunya virus (CHIKV) based on genomic sequence data collected between 2015 and 2025. The study focuses on three major CHIKV genotypes (I-WestAfrica, II-ECSA, and III-Asian) and employs advanced phylogenetic methods to investigate global transmission patterns, evolutionary dynamics, and geographic spread.
 
 ## Abstract
 
-Chikungunya virus (CHIKV) is a mosquito-borne alphavirus that has caused large-scale epidemics across tropical and subtropical regions worldwide. Despite its global health significance, the fine-scale transmission patterns and phylogeographic dynamics of CHIKV remain incompletely understood. This study presents a comprehensive genomic surveillance analysis of CHIKV using 1,500+ complete genome sequences collected from multiple continents between 2017 and 2025. We employed Bayesian phylogenetic methods (BEAST) to reconstruct time-calibrated phylogenies for three major CHIKV genotypes and analyzed transmission patterns using identical sequence pairs to characterize fine-scale geographic spread. Our analysis reveals distinct phylogeographic patterns across genotypes, with evidence of frequent inter-continental transmission events, particularly involving South America, Asia, and Africa. We applied relative risk (RR) analysis based on identical sequence pairs to identify transmission hotspots and quantify connectivity between geographic regions at multiple spatial scales (continent, country, and sub-national levels). Time-calibrated phylogenies indicate ongoing evolution and diversification of all three genotypes, with recent expansion events in Asia and South America. These findings provide critical insights into CHIKV transmission dynamics and inform public health surveillance and control strategies.
+Chikungunya virus (CHIKV) is a mosquito-borne alphavirus that has caused large-scale epidemics across tropical and subtropical regions worldwide. Despite its global health significance, the fine-scale transmission patterns and phylogeographic dynamics of CHIKV remain incompletely understood. This study presents a comprehensive genomic surveillance analysis of CHIKV using 1,500+ complete genome sequences collected from multiple continents between 2015 and 2025. We employed Bayesian phylogenetic methods (BEAST) to reconstruct time-calibrated phylogenies for three major CHIKV genotypes and analyzed transmission patterns using identical sequence pairs to characterize fine-scale geographic spread. Our analysis reveals distinct phylogeographic patterns across genotypes, with evidence of frequent inter-continental transmission events, particularly involving South America, Asia, and Africa. We applied relative risk (RR) analysis based on identical sequence pairs to identify transmission hotspots and quantify connectivity between geographic regions at multiple spatial scales (continent, country, and sub-national levels). Time-calibrated phylogenies indicate ongoing evolution and diversification of all three genotypes, with recent expansion events in Asia and South America. These findings provide critical insights into CHIKV transmission dynamics and inform public health surveillance and control strategies.
 
 ## Introduction
 
@@ -40,7 +40,7 @@ To address these questions, we conducted a comprehensive phylogeographic analysi
 
 ### Data Sources and Methods
 
-We collected complete genome sequences from public databases (GISAID and GenBank) spanning the period from 2017 to 2025. After quality control and filtering (minimum length: 10,500 nucleotides), we compiled a dataset of 1,500+ sequences with comprehensive metadata including collection date, geographic location (continent, country, city), host type, and genotype classification.
+We collected complete genome sequences from public databases (GISAID and GenBank) spanning the period from 2015 to 2025. After quality control and filtering (minimum length: 10,500 nucleotides), we compiled a dataset of 1,500+ sequences with comprehensive metadata including collection date, geographic location (continent, country, city), host type, and genotype classification.
 
 **Phylogenetic Analysis Pipeline:**
 
@@ -266,6 +266,6 @@ For questions or issues, please contact the repository maintainer.
 ---
 
 **Last Updated**: January 2025  
-**Data Coverage**: 2017-2025  
+**Data Coverage**: 2015-2025  
 **Total Sequences Analyzed**: 1,500+  
 **Genotypes Analyzed**: I-WestAfrica, II-ECSA, III-Asian
