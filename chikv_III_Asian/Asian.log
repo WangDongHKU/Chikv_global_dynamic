@@ -1,0 +1,358 @@
+IQ-TREE multicore version 2.1.3 COVID-edition for Linux 64-bit built Apr 21 2021
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    GPA-4-7 (AVX512, FMA3, 755 GB RAM)
+Command: iqtree2 -s /scr/u/dongw21/Chikungunya/chikv_III_Asian/Asian_aln.fasta -m MFP -nt AUTO -pre Asian -bb 1000 -alrt 1000
+Seed:    142945 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sun Jan  4 17:16:22 2026
+Kernel:  AVX+FMA - auto-detect threads (33 CPU cores detected)
+
+Reading alignment file /scr/u/dongw21/Chikungunya/chikv_III_Asian/Asian_aln.fasta ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 166 sequences with 12560 columns, 1553 distinct patterns
+737 parsimony-informative, 1168 singleton sites, 10655 constant sites
+                  Gap/Ambiguity  Composition  p-value
+   1  EPI_ISL_17455555    4.32%    passed     77.84%
+   2  EPI_ISL_17455556    4.32%    passed     71.98%
+   3  EPI_ISL_17455557    4.32%    passed     78.78%
+   4  EPI_ISL_17455558    4.32%    passed     77.11%
+   5  EPI_ISL_17455559    4.32%    passed     80.88%
+   6  EPI_ISL_17455560    4.33%    passed     78.64%
+   7  EPI_ISL_17455561    4.32%    passed     77.30%
+   8  EPI_ISL_17455562    4.32%    passed     72.23%
+   9  EPI_ISL_17456685    4.16%    passed     70.16%
+  10  EPI_ISL_17456743    6.34%    passed     39.75%
+  11  EPI_ISL_17456748    7.46%    passed     13.68%
+  12  EPI_ISL_17456927   12.01%    passed     59.04%
+  13  EPI_ISL_17456935   13.09%    passed     68.64%
+  14  EPI_ISL_17456936   11.78%    passed     63.20%
+  15  EPI_ISL_17456937   12.31%    passed     66.67%
+  16  EPI_ISL_17456941   11.70%    passed     68.33%
+  17  EPI_ISL_17456950   12.03%    passed     66.70%
+  18  EPI_ISL_17458562    9.98%    passed     64.97%
+  19  EPI_ISL_17458563    7.87%    passed    100.00%
+  20  EPI_ISL_17458565   10.21%    passed     65.85%
+  21  EPI_ISL_17458566    9.98%    passed     63.22%
+  22  EPI_ISL_17458567    9.98%    passed     64.43%
+  23  EPI_ISL_17458569    7.87%    passed     99.99%
+  24  EPI_ISL_17458570    9.98%    passed     65.85%
+  25  EPI_ISL_17458571    9.98%    passed     67.28%
+  26  EPI_ISL_17458572    9.98%    passed     66.00%
+  27  EPI_ISL_17458574    9.98%    passed     65.01%
+  28  EPI_ISL_17458576    9.98%    passed     63.06%
+  29  EPI_ISL_17458577    6.86%    passed     98.46%
+  30  EPI_ISL_17458578    4.59%    passed     82.38%
+  31  EPI_ISL_17458579    9.26%    passed     90.22%
+  32  EPI_ISL_17458580   30.79%    passed     46.19%
+  33  EPI_ISL_17458581    3.38%    passed     43.42%
+  34  EPI_ISL_17458582    4.78%    passed     89.26%
+  35  EPI_ISL_17458583    7.71%    passed     99.88%
+  36  EPI_ISL_17458584    4.82%    passed     64.42%
+  37  EPI_ISL_17458586    5.84%    passed     76.81%
+  38  EPI_ISL_17458589    4.48%    passed     63.59%
+  39  EPI_ISL_17458593    9.98%    passed     63.39%
+  40  EPI_ISL_17458594    9.98%    passed     63.06%
+  41  EPI_ISL_17458595    7.71%    passed     99.97%
+  42  EPI_ISL_17458596    4.79%    passed     90.34%
+  43  EPI_ISL_17458597    9.78%    passed     67.69%
+  44  EPI_ISL_17458598    9.98%    passed     69.14%
+  45  EPI_ISL_17458599    8.79%    passed     93.08%
+  46  EPI_ISL_17458601    9.98%    passed     69.14%
+  47  EPI_ISL_17458608    9.98%    passed     66.15%
+  48  EPI_ISL_17458612    9.98%    passed     66.58%
+  49  EPI_ISL_17458613    9.98%    passed     64.37%
+  50  EPI_ISL_17458616   29.64%    passed     53.25%
+  51  EPI_ISL_17458617    4.18%    passed     52.14%
+  52  EPI_ISL_17458618    7.56%    passed     99.39%
+  53  EPI_ISL_17458619    4.79%    passed     89.48%
+  54  EPI_ISL_17458620    7.87%    passed     99.99%
+  55  EPI_ISL_17458623    3.38%    passed     39.77%
+  56  EPI_ISL_17458627    3.38%    passed     42.03%
+  57  EPI_ISL_17458630    4.84%    passed     70.13%
+  58  EPI_ISL_17458632    3.48%    passed     48.63%
+  59  EPI_ISL_17458634    9.98%    passed     64.71%
+  60  EPI_ISL_17458635    4.47%    passed     66.59%
+  61  EPI_ISL_17458636    6.25%    passed     97.50%
+  62  EPI_ISL_17458637    9.98%    passed     65.66%
+  63  EPI_ISL_17458639    4.84%    passed     63.80%
+  64  EPI_ISL_17458641    3.38%    passed     42.27%
+  65  EPI_ISL_17458644    4.79%    passed     90.26%
+  66  EPI_ISL_17458646    9.98%    passed     65.39%
+  67  EPI_ISL_17458647    7.80%    passed     99.97%
+  68  EPI_ISL_17458648    9.98%    passed     66.81%
+  69  EPI_ISL_17458649    4.79%    passed     88.88%
+  70  EPI_ISL_17458650    6.25%    passed     97.90%
+  71  EPI_ISL_17458652    9.98%    passed     66.31%
+  72  EPI_ISL_17458653   12.26%    passed     76.55%
+  73  EPI_ISL_17458654    6.25%    passed     97.16%
+  74  EPI_ISL_17458657    6.25%    passed     98.21%
+  75  EPI_ISL_17458658    4.84%    passed     64.37%
+  76  EPI_ISL_17458660    4.79%    passed     90.02%
+  77  EPI_ISL_17458661    3.38%    passed     43.42%
+  78  EPI_ISL_17458663    9.98%    passed     68.74%
+  79  EPI_ISL_17458664    6.12%    passed     96.85%
+  80  EPI_ISL_17458665    8.88%    passed     94.22%
+  81  EPI_ISL_17458666    9.81%    passed     62.47%
+  82  EPI_ISL_17458668    3.38%    passed     46.20%
+  83  EPI_ISL_17458670    9.98%    passed     63.64%
+  84  EPI_ISL_17458671   24.39%    passed     78.60%
+  85  EPI_ISL_17458673    6.78%    passed    100.00%
+  86  EPI_ISL_17458674    3.38%    passed     42.01%
+  87  EPI_ISL_17458676    8.79%    passed     93.06%
+  88  EPI_ISL_17458677   10.07%    passed     68.41%
+  89  EPI_ISL_17458678    7.00%    passed     98.69%
+  90  EPI_ISL_17458691    3.38%    passed     45.99%
+  91  EPI_ISL_17458693    7.14%    passed     99.53%
+  92  EPI_ISL_17458694    9.98%    passed     67.59%
+  93  EPI_ISL_17458698    6.25%    passed     97.27%
+  94  EPI_ISL_17458699    6.19%    passed     87.15%
+  95  EPI_ISL_17458702    7.17%    passed     98.04%
+  96  EPI_ISL_17458703    7.87%    passed     99.97%
+  97  EPI_ISL_17458704    4.84%    passed     66.92%
+  98  EPI_ISL_17458705    6.89%    passed     97.77%
+  99  EPI_ISL_17458706    4.84%    passed     68.92%
+ 100  EPI_ISL_17458707    3.38%    passed     44.60%
+ 101  EPI_ISL_17458708    3.38%    passed     42.22%
+ 102  EPI_ISL_17458709    3.38%    passed     46.73%
+ 103  EPI_ISL_17458710    3.38%    passed     40.82%
+ 104  EPI_ISL_17458712    4.79%    passed     89.48%
+ 105  EPI_ISL_17458713    4.84%    passed     63.62%
+ 106  EPI_ISL_17458714    9.98%    passed     62.18%
+ 107  EPI_ISL_17458715    6.25%    passed     98.65%
+ 108  EPI_ISL_17458716    7.38%    passed     99.71%
+ 109  EPI_ISL_17458725    7.51%    passed     99.45%
+ 110  EPI_ISL_17458728    4.79%    passed     87.55%
+ 111  EPI_ISL_17458741    9.98%    passed     64.37%
+ 112  EPI_ISL_17458742    9.98%    passed     66.07%
+ 113  EPI_ISL_17458743   10.03%    passed     66.65%
+ 114  EPI_ISL_17458749    6.25%    passed     98.39%
+ 115  EPI_ISL_17458763    6.25%    passed     97.59%
+ 116  EPI_ISL_17459276    4.52%    passed     68.94%
+ 117  EPI_ISL_17459919    4.62%    passed     86.46%
+ 118  EPI_ISL_17459927    4.43%    passed     88.82%
+ 119  EPI_ISL_17459933    4.43%    passed     87.01%
+ 120  EPI_ISL_17461390   10.97%    passed     61.77%
+ 121  EPI_ISL_17461391   10.97%    passed     61.08%
+ 122  EPI_ISL_17461392   10.97%    passed     58.67%
+ 123  EPI_ISL_17461393   12.27%    passed     72.98%
+ 124  EPI_ISL_17461394   10.97%    passed     60.55%
+ 125  EPI_ISL_17461395   10.97%    passed     60.55%
+ 126  EPI_ISL_17461396   11.02%    passed     60.81%
+ 127  EPI_ISL_17461397   10.97%    passed     62.41%
+ 128  EPI_ISL_17461398   10.97%    passed     59.73%
+ 129  EPI_ISL_17461544    5.66%    passed     96.94%
+ 130  EPI_ISL_17461545    6.27%    passed     97.90%
+ 131  EPI_ISL_17461694    7.68%    passed     99.34%
+ 132  EPI_ISL_17461696    7.68%    passed     99.01%
+ 133  EPI_ISL_17461698    7.68%    passed     99.49%
+ 134  EPI_ISL_17461699    7.66%    passed     98.99%
+ 135  EPI_ISL_17461701    7.88%    passed     97.89%
+ 136  EPI_ISL_17461702    8.26%    passed     96.22%
+ 137  EPI_ISL_17461704    7.68%    passed     99.27%
+ 138  EPI_ISL_17461705    7.68%    passed     98.88%
+ 139  EPI_ISL_17461706    7.68%    passed     99.38%
+ 140  EPI_ISL_17461707    7.68%    passed     99.41%
+ 141  EPI_ISL_17461708    7.68%    passed     99.30%
+ 142  EPI_ISL_17461712    7.78%    passed     99.09%
+ 143  EPI_ISL_17461714    7.68%    passed     99.49%
+ 144  EPI_ISL_17461719    7.79%    passed     99.45%
+ 145  EPI_ISL_17461721    7.68%    passed     98.93%
+ 146  EPI_ISL_17461722    7.68%    passed     99.04%
+ 147  EPI_ISL_17461723    7.73%    passed     99.29%
+ 148  EPI_ISL_17461724    7.68%    passed     99.17%
+ 149  EPI_ISL_17461725    7.68%    passed     99.17%
+ 150  EPI_ISL_17461726    7.67%    passed     99.28%
+ 151  EPI_ISL_17461727    7.68%    passed     99.41%
+ 152  EPI_ISL_17461728    7.68%    passed     99.32%
+ 153  EPI_ISL_17461729    7.68%    passed     99.36%
+ 154  EPI_ISL_17461730    7.68%    passed     99.16%
+ 155  EPI_ISL_17461731    7.68%    passed     99.41%
+ 156  EPI_ISL_17673107    4.55%    passed     91.06%
+ 157  EPI_ISL_18490236   10.43%    passed     60.55%
+ 158  EPI_ISL_18490240   10.36%    passed     64.59%
+ 159  EPI_ISL_18490243   10.53%    passed     64.94%
+ 160  EPI_ISL_18490244   10.25%    passed     60.33%
+ 161  EPI_ISL_19085665    6.72%    passed     98.40%
+ 162  EPI_ISL_19196361    4.53%    passed     86.05%
+ 163  EPI_ISL_19613373    4.64%    passed     77.11%
+ 164  EPI_ISL_20056763    5.33%    passed     86.36%
+ 165  EPI_ISL_20136536    5.80%    passed     76.50%
+ 166  EPI_ISL_20237523   10.96%    passed     44.46%
+****  TOTAL               7.80%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.018 seconds
+Measuring multi-threading efficiency up to 33 CPU cores
+Increase to 10 rounds for branch lengths
+147 trees examined
+Threads: 1 / Time: 33.043 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -49791
+Threads: 2 / Time: 21.141 sec / Speedup: 1.563 / Efficiency: 78% / LogL: -49791
+Threads: 3 / Time: 15.643 sec / Speedup: 2.112 / Efficiency: 70% / LogL: -49791
+Threads: 4 / Time: 18.089 sec / Speedup: 1.827 / Efficiency: 46% / LogL: -49791
+BEST NUMBER OF THREADS: 3
+
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -33458.520
+Optimal log-likelihood: -33458.508
+Rate parameters:  A-C: 1.12795  A-G: 5.07721  A-T: 1.64390  C-G: 0.42583  C-T: 13.19720  G-T: 1.00000
+Base frequencies:  A: 0.293  C: 0.245  G: 0.256  T: 0.206
+Proportion of invariable sites: 0.423
+Gamma shape alpha: 0.738
+Parameters optimization took 1 rounds (0.099 sec)
+Time for fast ML tree search: 1.402 seconds
+
+NOTE: ModelFinder requires 89 MB RAM!
+ModelFinder will test up to 286 DNA models (sample size: 12560) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  GTR+F         33793.429    337 68260.857    68279.497    70767.555
+  2  GTR+F+I       33485.669    338 67647.338    67666.090    70161.474
+  3  GTR+F+G4      33471.038    338 67618.077    67636.829    70132.213
+  4  GTR+F+I+G4    33458.491    339 67594.983    67613.847    70116.557
+  5  GTR+F+R2      33437.564    339 67553.127    67571.991    70074.701
+  6  GTR+F+R3      33436.808    341 67555.616    67574.706    70092.067
+ 18  SYM+R2        33552.620    336 67777.240    67795.767    70276.499
+ 31  TVM+F+R2      33588.772    338 67853.545    67872.296    70367.681
+ 44  TVMe+R2       33642.557    335 67955.113    67973.529    70446.935
+ 57  TIM3+F+R2     33462.416    337 67598.833    67617.472    70105.531
+ 70  TIM3e+R2      33584.029    334 67836.058    67854.363    70320.441
+ 83  TIM2+F+R2     33453.474    337 67580.947    67599.587    70087.645
+ 96  TIM2e+R2      33562.477    334 67792.955    67811.260    70277.338
+109  TIM+F+R2      33475.993    337 67625.986    67644.626    70132.684
+122  TIMe+R2       33591.215    334 67850.429    67868.735    70334.812
+135  TPM3u+F+R2    33613.636    336 67899.271    67917.799    70398.531
+148  TPM3+F+R2     33613.636    336 67899.271    67917.799    70398.531
+161  TPM2u+F+R2    33604.342    336 67880.683    67899.211    70379.943
+174  TPM2+F+R2     33604.342    336 67880.683    67899.211    70379.943
+187  K3Pu+F+R2     33626.609    336 67925.218    67943.746    70424.478
+200  K3P+R2        33681.994    333 68029.988    68048.182    70506.933
+213  TN+F+R2       33476.161    336 67624.322    67642.849    70123.581
+226  TNe+R2        33591.387    333 67848.773    67866.968    70325.718
+239  HKY+F+R2      33626.769    335 67923.537    67941.954    70415.359
+252  K2P+R2        33682.210    332 68028.420    68046.504    70497.926
+265  F81+F+R2      34701.789    334 70071.578    70089.884    72555.961
+278  JC+R2         34747.679    331 70157.357    70175.331    72619.426
+Akaike Information Criterion:           GTR+F+R2
+Corrected Akaike Information Criterion: GTR+F+R2
+Bayesian Information Criterion:         GTR+F+R2
+Best-fit model: GTR+F+R2 chosen according to BIC
+
+All model information printed to Asian.model.gz
+CPU time for ModelFinder: 249.883 seconds (0h:4m:9s)
+Wall-clock time for ModelFinder: 106.466 seconds (0h:1m:46s)
+Generating 1000 samples for ultrafast bootstrap (seed: 142945)...
+
+NOTE: 22 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -33437.564
+Optimal log-likelihood: -33437.490
+Rate parameters:  A-C: 1.08297  A-G: 4.78104  A-T: 1.56895  C-G: 0.40552  C-T: 12.86324  G-T: 1.00000
+Base frequencies:  A: 0.293  C: 0.245  G: 0.256  T: 0.206
+Site proportion and rates:  (0.914,0.455) (0.086,6.755)
+Parameters optimization took 1 rounds (0.081 sec)
+Computing ML distances based on estimated model parameters...
+Computing ML distances took 0.046799 sec (of wall-clock time) 0.140164 sec(of CPU time)
+Computing RapidNJ tree took 0.004727 sec (of wall-clock time) 0.016319 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -33810.474
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 2.017 second
+Computing log-likelihood of 98 initial trees ... 1.108 seconds
+Current best score: -33395.051
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -33384.756
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -33383.371
+Iteration 10 / LogL: -33398.414 / Time: 0h:0m:8s
+Iteration 20 / LogL: -33394.911 / Time: 0h:0m:14s
+Finish initializing candidate tree set (20)
+Current best tree score: -33383.371 / CPU time: 14.041
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 27: -33380.872
+Iteration 30 / LogL: -33396.026 / Time: 0h:0m:17s (0h:0m:59s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 32: -33377.585
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 39: -33374.589
+Iteration 40 / LogL: -33378.009 / Time: 0h:0m:21s (0h:0m:55s left)
+Iteration 50 / LogL: -33407.446 / Time: 0h:0m:26s (0h:0m:48s left)
+Log-likelihood cutoff on original alignment: -33431.088
+Iteration 60 / LogL: -33514.670 / Time: 0h:0m:32s (0h:0m:43s left)
+Iteration 70 / LogL: -33388.031 / Time: 0h:0m:36s (0h:0m:36s left)
+Iteration 80 / LogL: -33374.735 / Time: 0h:0m:41s (0h:0m:30s left)
+Iteration 90 / LogL: -33379.356 / Time: 0h:0m:46s (0h:0m:25s left)
+Iteration 100 / LogL: -33381.297 / Time: 0h:0m:49s (0h:0m:19s left)
+Log-likelihood cutoff on original alignment: -33431.088
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.994
+Iteration 110 / LogL: -33392.730 / Time: 0h:0m:54s (0h:0m:44s left)
+Iteration 120 / LogL: -33392.633 / Time: 0h:0m:58s (0h:0m:39s left)
+Iteration 130 / LogL: -33419.056 / Time: 0h:1m:2s (0h:0m:33s left)
+Iteration 140 / LogL: -33374.651 / Time: 0h:1m:7s (0h:0m:28s left)
+TREE SEARCH COMPLETED AFTER 140 ITERATIONS / Time: 0h:1m:7s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -33374.589
+2. Current log-likelihood: -33374.554
+3. Current log-likelihood: -33374.518
+4. Current log-likelihood: -33374.486
+5. Current log-likelihood: -33374.460
+6. Current log-likelihood: -33374.437
+7. Current log-likelihood: -33374.418
+8. Current log-likelihood: -33374.401
+9. Current log-likelihood: -33374.387
+10. Current log-likelihood: -33374.372
+11. Current log-likelihood: -33374.356
+12. Current log-likelihood: -33374.345
+13. Current log-likelihood: -33374.333
+Optimal log-likelihood: -33374.324
+Rate parameters:  A-C: 1.09216  A-G: 4.84653  A-T: 1.59848  C-G: 0.40548  C-T: 12.97063  G-T: 1.00000
+Base frequencies:  A: 0.293  C: 0.245  G: 0.256  T: 0.206
+Site proportion and rates:  (0.925,0.484) (0.075,7.345)
+Parameters optimization took 13 rounds (1.001 sec)
+BEST SCORE FOUND : -33374.324
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+Alternative NNI shows better log-likelihood -33374.317 > -33374.324
+5.049 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file Asian.splits.nex
+Total tree length: 0.245
+
+Total number of iterations: 140
+CPU time used for tree search: 193.167 sec (0h:3m:13s)
+Wall-clock time used for tree search: 66.730 sec (0h:1m:6s)
+Total CPU time used: 212.837 sec (0h:3m:32s)
+Total wall-clock time used: 73.327 sec (0h:1m:13s)
+
+Computing bootstrap consensus tree...
+Reading input file Asian.splits.nex...
+166 taxa and 2710 splits.
+Consensus tree written to Asian.contree
+Reading input trees file Asian.contree
+Log-likelihood of consensus tree: -33375.076
+
+Analysis results written to: 
+  IQ-TREE report:                Asian.iqtree
+  Maximum-likelihood tree:       Asian.treefile
+  Likelihood distances:          Asian.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          Asian.splits.nex
+  Consensus tree:                Asian.contree
+  Screen log file:               Asian.log
+
+Date and Time: Sun Jan  4 17:19:22 2026
